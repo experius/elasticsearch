@@ -1,4 +1,4 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:7.12.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:7.17.0
 
 RUN /usr/share/elasticsearch/bin/elasticsearch-plugin install --batch analysis-icu
 
