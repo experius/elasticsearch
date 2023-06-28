@@ -12,4 +12,6 @@ ENV discovery.type="single-node"
 
 ENV http.port=9200
 
+ENV ES_JAVA_OPTS="-Xms2g -Xmx2g"
+
 EXPOSE 9200/tcp
